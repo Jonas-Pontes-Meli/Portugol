@@ -34,9 +34,9 @@ programa
     {
 
 	  entrada = numeros[i]
-	  se (entrada%2 == 1)
+	  se (i%2 == 1)
 	  {
-	  	escreva(entrada," ,")
+	  	escreva(numeros[i]," ,")
 	  }
     }
 
